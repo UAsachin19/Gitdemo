@@ -32,6 +32,13 @@ class Student
 			s2.marks = 95;
 			s1.displayStudentdeails();
 			s2.displayStudentdeails();
+		
+			Student s3 = new Student();
+			Student s4 = new Student();
+			s3.setStudentDetails(500, "Aditya", 88);
+			s4.setStudentDetails(555, "Ashwin", 99);
+			s3.displayStudentdeails();
+			s4.displayStudentdeails();
 			
 		}
 	
