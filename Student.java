@@ -25,6 +25,14 @@ class Student
 			s2.setStudentDetails(101, "Amol", 75);
 			s1.displayStudentdeails();
 			s2.displayStudentdeails();
+			schoolName = "My New School";
+			s1.displayStudentdeails();
+			s2.displayStudentdeails();
+			s1.rollNo = 220;
+			s2.marks = 95;
+			s1.displayStudentdeails();
+			s2.displayStudentdeails();
+			
 		}
 	
 }
