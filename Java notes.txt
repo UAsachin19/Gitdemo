@@ -1,0 +1,56 @@
+Every object will have States (variables) and behaviors (methods)
+Plan / Design / BluePrint / Template
+Classes are logical, object are physical
+Process of creating object from class is instantiation
+Object = instance
+
+Abstraction - showing essential parts / managing complexities
+Encapsulation - code is to be written in class body, Access Specifier (restrict visibility of programming component) + Packages, 
+Inheritance - Re-usability, extends existing features, aggregation (has _ a), Method overriding
+Base class / Super class / Parent Class - Derived class / child class / 
+Polymorphism - many forms (method overloading  - static polymorphism - early binding - compile polymorphism / method overriding - Dynamic polymorphism - late binding, runtime polymorphism)
+Carbon - Coal / Lead / Graphite / Diamond
+
+language - keywords (48) + syntax
+
+James gosling - OAK language - 
+
+c++ - compile - .exe i.e. binary format m/c code (0,1) - OS specific - Cannot run on other OS
+
+Java - compile - byte code (i.e. .class file) - Portable in any OS (Compiler + Interpreter based language)
+WORA (Write once and run anywhere)
+
+Convention - 
+1. class name should start with capital, 2. if there are 2 words in class name, then first letter of those 2 words should be capital
+3. Everything followed by parenthesis () is method
+4. All method should start with small letter. Ideally, should be verb.
+5. Variable name should not start with digit, cannot have embedded space. 
+6. Variable name should Always start with small case letter. Second Word can be capital e.g. firstName
+7. Variable name is case sensitive
+
+System is inbuil class in java
+Out - static member of System class, is object of print stream.
+In - Input device
+Err - Error
+
+Primitive data types -
+short, byte, int, long (whole number) - default value - 0
+float, double (decimal number) - default value is 0.0
+char (single char) - default value \u00000
+Boolean (true/ false) - default value = false
+
+Derived data types
+String - default value is null
+Why String class is immutable?? Cannot be changed. (Interview Question)
+
+User defined data types
+classes created by users
+
+Internally Java supports Int, double data types
+
+Variable -
+1. Instance
+2. Class
+3. Local
+
+new keyword create/allocate memory runtime, calls special method
